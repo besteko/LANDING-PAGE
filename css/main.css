@@ -12,6 +12,7 @@ a{
 html{
     font-family: 'Silkscreen', cursive;
 }
+/* Navbar Section */
 #navbar{
     color: #fff;
     display: flex;
@@ -31,4 +32,50 @@ html{
 #navbar ul li a:hover{
     background: #336ea2;
     border-radius: 10px;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#home img{
+    max-width: 15%;
+    height: auto;
+    border-radius: 10%;
+}
+
+#home .name h2{
+    margin-bottom: 00.75rem;
+}
+#home .name p{
+   opacity: 0.6; 
+   font-style: italic;
+}
+/* Training */
+#training{
+    color: #fff;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 01.5rem;
+}
+#training .items .item:hover{
+    color: greenyellow;
+    opacity: 0.6;
+}
+/* Coourses */
+#courses img{
+    max-width: 25%;
 }
