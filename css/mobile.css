@@ -12,3 +12,7 @@ flex-direction: column;
 #training .items .item{
     width:100% ;
 }
+
+.courses .course{
+    flex-direction: column;
+}
